@@ -17,7 +17,7 @@ class MiApp extends StatelessWidget {
 }
 
 class MiHomePage extends StatelessWidget {
-  MiHomePage({Key key}) : super(key: key);
+  MiHomePage({Key? key}) : super(key: key);
   @override
   Widget build(BuildContext context) {
     return Scaffold(
